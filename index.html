@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-E7tyM60IeKl7dRZUG1uV7TFlq3HsYX1s45tSDuV7Pu76zZ4b+dL4TrhMWxemxQxRLzSswMzM7KjruzzPbJLOg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <header>
+        <img src="img/logoo.jpeg" alt="My Logo" class="logo">
+        <h1>Mohammed Almirri</h1>
+        <a href="mailto:2200036207@aston.ac.uk">Email</a>
+        <p>SUN: 220036207</p>
+
+
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-projects">My Projects</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Hi, I'm Mohammed Almirri, a software engineer with a passion for coding and building great software applications. I have a degree in Computer Science and have been working in the industry for over 5 years. My expertise includes web development,
+                database management, and programming languages such as Java and Python and C++.</p>
+        </section>
+        <section id="my-projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li>
+                    <h3>Project 1</h3>
+                    <img src="img/project1.jpg" alt="Description of image">
+                    <p>This is a project I worked on that involved building a website for a local business. The website was built using HTML, CSS, and JavaScript.</p>
+                </li>
+                <li>
+                    <h3>Project 2</h3>
+                    <img src="img/project2.png" alt="Description of image">
+                    <p>This is a project I worked on that involved building a mobile application for a startup company. The mobile app was built using React Native and integrates with the company's backend APIs.</p>
+                </li>
+                <li>
+                    <h3>Project 3</h3>
+                    <img src="img/project3.png" alt="Description of image">
+                    <p>This is a personal project I worked on that involved building a chatbot using Python and integrating it with Facebook Messenger.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact-me">
+            <h2>Contact Me</h2>
+            <form id="contact-form" method="post">
+                <label for="project-name">Project Name:</label>
+                <input type="text" id="project-name" name="project-name" required>
+
+                <label for="project-date">Project Date:</label>
+                <input type="date" id="project-date" name="project-date" required>
+
+                <label for="project-duration">Project Duration:</label>
+                <input type="text" id="project-duration" name="project-duration" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="confirm-email">Confirm Email:</label>
+                <input type="email" id="confirm-email" name="confirm-email" required>
+
+                <label for="contact-method">Preferred Contact Method:</label>
+                <select id="contact-method" name="contact-method">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="sms">SMS</option>
+              </select>
+
+                <button type="submit" id="submit-btn">Submit</button>
+            </form>
+
+            <div class="social-links">
+                <h3>Find me on social media:</h3>
+                <ul>
+                    <li><a href="https://github.com" target="_blank"><i class="fab fa-github"></i>Github</a>
+                        <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin">linkedIn</i></a>
+                            <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mohammed Almirri</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
